@@ -113,7 +113,7 @@ int main() {
                 getchar();
                 break;
 
-            case 3: //EPRÉSTIMO 
+            case 3: //EMPRÉSTIMO 
                 printf("--- Realizar empréstimo ---\n");
 
                 if (totalEmprestimos >= MAX_EMPRESTIMOS) {
@@ -161,7 +161,7 @@ int main() {
                 getchar();
                 break;
             
-            case 4: // LISTAR EMPÉSTIMOS.
+            case 4: // LISTAR EMPRÉSTIMOS.
                 printf("--- Lista de Empréstimos ---\n");
                 if (totalEmprestimos == 0) {
                     printf("Nenhum empréstimo realizado.\n");
